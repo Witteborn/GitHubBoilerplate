@@ -81,8 +81,8 @@ jobs:
         name: Create release with GitReleaseManager
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          milestone: '${{ steps.gitversion.outputs.semVer }}'
-          name: 'v${{ steps.gitversion.outputs.semVer }}'
+          milestone: '${{ steps.gitversion.outputs.majorMinorPatch }}'
+          name: '${{ steps.gitversion.outputs.majorMinorPatch }}'
           owner: 'Witteborn'
           repository: 'GitHubBoilerplate'
           assets: |
