@@ -43,7 +43,7 @@ For more information on how to use GitReleaseManager please checkout their [docu
 # Contribution
 Pull request are very welcome, please open an issue in advance.
 
-Check out our [Code of Conduct](./CODE_OF_CONDUCT.md)
+Please check out our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) before creating a pull request.
 
 # Support
 If you need any help check out our [Support](./SUPPORT.md) file.
