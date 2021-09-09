@@ -48,6 +48,11 @@ Please check out our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of C
 # Support
 If you need any help check out our [Support](./SUPPORT.md) file.
 
+# Security
+
+Have you found a security issue? a vulnerability? or simply have some concerns?
+Checkout our [Security file](./SECURITY.md) to see how you can report them safely.
+
 # Thank you
 [Cake](https://github.com/cake-build/cake) for being a rolemodel in this project and providing us with various templates.
 
