@@ -84,12 +84,7 @@ jobs:
           milestone: '${{ steps.gitversion.outputs.semVer }}'
           name: 'v${{ steps.gitversion.outputs.semVer }}'
           owner: 'Witteborn'
-          repository: 'Template'
+          repository: 'GitHubBoilerplate'
           assets: |
-            artifacts/Template_linux-arm.zip
-            artifacts/Template_linux-x64.zip
-            artifacts/Template_osx-x64.zip
-            artifacts/Template_win-arm.zip
-            artifacts/Template_win-x64.zip
-            artifacts/Template_win-x86.zip
+
             
