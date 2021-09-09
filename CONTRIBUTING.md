@@ -4,40 +4,36 @@
 
 By contributing, you assert that:
 
-* The contribution is your own original work.
-* You have the right to assign the copyright for the work (it is not owned by your employer, or
+- The contribution is your own original work.
+- You have the right to assign the copyright for the work (it is not owned by your employer, or
   you have been given copyright assignment in writing).
-* You [license](./LICENSE) the contribution under the terms applied to the rest of the project.
-* You agree to follow the [code of conduct](./CODE_OF_CONDUCT.md).
+- You [license](./LICENSE) the contribution under the terms applied to the rest of the project.
+- You agree to follow the [code of conduct](./CODE_OF_CONDUCT.md).
 
 
-## Contributing process
-### find open issues or features
+## How to Contribute
 
- 
+### Where to find open issues
+Generally you can find and work on open issues [here](https://github.com/Witteborn/GitHubBoilerplate/issues)
+
 If something is on the issues list with the 'Up For Grabs' label or no one is asigned yet you can feel free to work on it. You should comment that you are signing up for it on the issue so someone else doesn't also sign up for the work.
+
+If you find an issue that isn't contained in the list feel free to create one yourselfes, you wont need to work on it but expect further questions somewhere in the future.
 
 ### Set up your environment
 
-For contributor:
- * You create, or update, a fork of the project under your GitHub account.
-
-Team members and maintainers:
- + you can work in the project directly
-
-Further on:
- * From there you create a branch based on the develop branch named with the following format: GH - ISSUE_NUMBER - SHORT_TITLE.
- * Please replace the ISSUE_NUMBER with the issue created for that pull request.
- * You can optionaly add a very short title for your issue so the git branches are a bit more easier to read.
+ You create a branch based on the develop branch named with the following format: GH - ISSUE_NUMBER - SHORT_TITLE.
+ - Please replace the ISSUE_NUMBER with the issue created for that pull request.
+ - You can optionaly add a very short title for your issue so the git branches are a bit more easier to read.
  
  Example branch name:
- * GH-2-ContributionGuidelines
- * GH-2
+ - GH-2-ContributionGuidelines
+ - GH-2
  
 Please do not change anything unrelated to that issue, if you think something unrelated should be changed open an issue for that thing in particular.
  
 
-### Prepare commits
+### Commits
 
 A commit is a small logical unit that represents a change.
 Please dont create large commits, they should be easy to review and only do what they describe.
@@ -49,9 +45,9 @@ Example git message: "(GH-2) Adds contribution guidelines"
 ### Submit pull request
 Prerequisites:
 
- * You are making commits in a seperate branch.
- * All code should compile without errors or warnings.
- * All tests should be passing.
+ - You are making commits in a seperate branch.
+ - All code should compile without errors or warnings.
+ - All tests should be passing.
 
 Submitting PR:
 
@@ -85,11 +81,22 @@ Now if you stray outside of the guidelines we have above, it doesn't mean we are
 your pull request. It will just make things harder for us.
 Harder for us roughly translates to a longer SLA for your pull request.
 
+
 ## Unclear
 If anything is unclear please checkout on how we did certain thing in the past or feel free to open an issue based on the question template.
 
 
+# Summary / TL;DR
+- Open an issue before contributing
+- Check for duplicates before creating an issue
+- Each pull request has atleast one issue.
+- Name your branch the same as the issue number: GH-2 for Issue with number 2.
+- Name you pull request "(GH-IssueNumber) Title of your pull request"
+- Include "(GH-IssueNumber)" at the beginning of each commit
+- Your feature branch should be named after you issue aswell. Example: GH-2 or -GH-2-ContributionGuidelines
+- The rule of thumb is ask if something is unclear before its too late
+
+
 ## Acknowledgement
 
-This contribution guide was taken from the [Cake project](https://github.com/cake-build/cake)
-and was edited to be more open for a variety of project types.
+This contribution guide contains pieces taken from the [Cake project](https://github.com/cake-build/cake) and was edited to be more flexible.
