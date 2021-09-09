@@ -16,7 +16,7 @@ jobs:
   create_release_draft:
     # The type of runner that the job will run on
     #runs-on: self-hosted
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -76,20 +76,14 @@ jobs:
         name: Install GitReleaseManager
         with:
           versionSpec: '0.10.x'
-          
-      - uses: gittools/actions/gitreleasemanager/create@v0.9.2
+        
+      - uses: gittools/actions/gitreleasemanager/create@v0.9.10
         name: Create release with GitReleaseManager
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          milestone: '${{ steps.gitversion.outputs.semVer }}'
-          name: 'v${{ steps.gitversion.outputs.semVer }}'
+          milestone: '${{ steps.gitversion.outputs.majorMinorPatch }}'
+          name: '${{ steps.gitversion.outputs.majorMinorPatch }}'
           owner: 'Witteborn'
-          repository: 'Template'
-          assets: |
-            artifacts/Template_linux-arm.zip
-            artifacts/Template_linux-x64.zip
-            artifacts/Template_osx-x64.zip
-            artifacts/Template_win-arm.zip
-            artifacts/Template_win-x64.zip
-            artifacts/Template_win-x86.zip
+          repository: 'GitHubBoilerplate'
+
             
