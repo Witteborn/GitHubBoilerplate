@@ -76,9 +76,6 @@ jobs:
         name: Install GitReleaseManager
         with:
           versionSpec: '0.10.x'
-          
-      - name: Show Ls
-        run: ls
         
       - uses: gittools/actions/gitreleasemanager/create@v0.9.10
         name: Create release with GitReleaseManager
