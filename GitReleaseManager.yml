@@ -34,7 +34,7 @@ issue-labels-include:
     - Security
 
 issue-labels-exclude:
-    - Build
+    - Actions
     - Internal Refactoring
     - Operative
     - Question
