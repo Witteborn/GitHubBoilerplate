@@ -21,6 +21,8 @@ If you like this project please star it and share it with others.
 - A Pull request template
 - A README file with all you need
 - Automated Semantic Versioning thanks to [GitVersion](https://github.com/GitTools/GitVersion)
+- A [funding file](./FUNDING.md) to easily enable sponsorships in your repository
+
 
 # Installation
 Click on "Use Template" to create a repository based on this one.
