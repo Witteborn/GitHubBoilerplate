@@ -41,6 +41,8 @@ For more information on how to use GitReleaseManager please checkout their [docu
 # Contribution
 Pull request are very welcome, please open an issue in advance.
 
+Check out our [Code of Conduct](./CODE_OF_CONDUCT.md)
+
 # Thank you
 [Cake](https://github.com/cake-build/cake) for being a rolemodel in this project and providing us with various templates.
 
