@@ -88,6 +88,5 @@ jobs:
           name: '${{ steps.gitversion.outputs.majorMinorPatch }}'
           owner: 'Witteborn'
           repository: 'GitHubBoilerplate'
-          assets: |
 
             
