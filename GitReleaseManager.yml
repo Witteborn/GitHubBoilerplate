@@ -4,15 +4,19 @@ issue-labels-include:
     - Bug
     - Improvement
     - Documentation
-    - security
+    - Security
+
 issue-labels-exclude:
     - Build
     - Internal Refactoring
+    - Operative
+    - Question
+    
 issue-labels-alias:
     - name: Documentation
       header: Documentation
       plural: Documentation
-    - name: security
+    - name: Security
       header: Security
       plural: Security
 create:
