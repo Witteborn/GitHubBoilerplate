@@ -1,6 +1,6 @@
 ---
 name: Improvement
-about: Ask a question about this project
+about: Share ideas on how to improve this project
 title: "[Improvement]"
 labels: Improvement
 assignees: ''
