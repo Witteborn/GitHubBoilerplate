@@ -43,6 +43,11 @@ Pull request are very welcome, please open an issue in advance.
 
 Check out our [Code of Conduct](./CODE_OF_CONDUCT.md)
 
+# Security
+
+Have you found a security issue? a vulnerability? or simply have some concerns?
+Checkout our [Security file](./SECURITY.md) to see how you can report them safely.
+
 # Thank you
 [Cake](https://github.com/cake-build/cake) for being a rolemodel in this project and providing us with various templates.
 
