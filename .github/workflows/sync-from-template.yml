@@ -27,7 +27,7 @@ on:
   workflow_dispatch:
 
 env:
-  BASE_BRANCH: main
+  BASE_BRANCH: master
   HEAD_BRANCH: chore/sync-from-template
   GIT_AUTHOR_NAME: ${{ github.repository_owner }}
   GIT_AUTHOR_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
