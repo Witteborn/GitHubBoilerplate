@@ -14,7 +14,7 @@ name: Sync changes from template
 # - Switch to gh. Check https://github.com/cli/cli/issues/297 for updates
 
 on:
-  # Run at 0517 UTC each Friday
+  # Run once a day
   schedule:
     - cron: "0 0 * * *"
 
