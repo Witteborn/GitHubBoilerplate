@@ -45,7 +45,7 @@ jobs:
     steps:
       # Clone the template repository
       - name: Check out template repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ${{ env.REPO_TEMPLATE }}
           token: ${{ github.token }}
@@ -53,7 +53,7 @@ jobs:
 
       # Clone the target repository. Check out a branch
       - name: Check out ${{ github.repository }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ${{ github.repository }}
           token: ${{ github.token }}
@@ -71,7 +71,6 @@ jobs:
         run: |
           _files="$(find ${REPO_TEMPLATE} \
             ! -path "*/.git/*" \
-            ! -path "*/.github/workflows/*" \
             ! -name ".gitignore" \
             ! -name "README.md" \
             -type f \
